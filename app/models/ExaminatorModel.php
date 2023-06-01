@@ -9,11 +9,11 @@ class ExaminatorModel
         $this->db = new Database();
     }
     
-    public function getExaminatoren()
+    public function getExamenInfo()
     {
         $sql = "SELECT * from examenperexaminator
         inner join examinator on examenperexaminator.Id = 
-        examinator.Id inner join examen on examenperexaminator.Id = examen.Id; order by examen.Datum";
+        examinator.Id inner join examen on examenperexaminator.Id = examen.Id;";
 
         $this->db->query($sql);
 

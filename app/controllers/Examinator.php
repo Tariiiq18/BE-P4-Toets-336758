@@ -11,7 +11,7 @@ class Examinator extends BaseController
 
     public function index()
     {
-        $dat = $this->examinatorModel->getExaminatoren();
+        $dat = $this->examinatorModel->getExamenInfo();
 
         $rows = '';
         foreach ($dat as $examinator) 
