@@ -8,20 +8,6 @@
 </head>
 <body>
     <h3><?= $data['title']; ?></h3>
-    <a href="<?= URLROOT; ?>/country/index">Landen</a>
-
-    <table border="1">
-        <thead>
-            <th>Id</th>
-            <th>Naam</th>
-        </thead>
-        <tbody>
-    	    <tr>
-                <td><?= $data['id']; ?></td>
-                <td><?= $data['name']; ?></td>
-            </tr>
-        </tbody>
-    </table>
-
+    <a href="<?= URLROOT; ?>/examinator/index">Overicht Afgenomen Examens Examinatoren</a>
 </body>
 </html>

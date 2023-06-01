@@ -6,7 +6,7 @@ class Home extends BaseController
     {
 
         $data = [
-            'title' => 'Welkom op de homepage',
+            'title' => 'Homepage',
             'id'    => $id,
             'name'  => $name
         ];

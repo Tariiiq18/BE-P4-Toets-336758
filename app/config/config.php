@@ -3,4 +3,4 @@
     define('DB_USER', 'root');
     define('DB_PASS', '');
     define('DB_NAME', 'mvc4');
-    define('URLROOT', 'http://mvc-2209b.org');
+    define('URLROOT', 'http://mvc-4.failed/');
